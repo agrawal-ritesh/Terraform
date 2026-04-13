@@ -1,1 +1,1 @@
-![Terraform Output](image.png)
+![Terraform](image.png)
