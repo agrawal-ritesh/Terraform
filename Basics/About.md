@@ -1,5 +1,5 @@
  #                                                Terraform
-> Infrastructure as Code
+### Infrastructure as Code
 1. Your Cloud Setup written in Code.
 2. Same Setup can be reused anytime. 
 3. No manual mistakes. 
@@ -13,7 +13,7 @@
 
 2. Resources. 
 > Blocks to create a resource using Terraform.
->> To create a resource group or virtual machine or networks.
+-> To create a resource group or virtual machine or networks.
 
 3. Variables. 
 > Inputs that allows the customization which changing the actual code.
