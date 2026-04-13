@@ -59,11 +59,8 @@ Locals -> Internal calculation.
 10. Drift.
 > It happens when your real infrastruce is changed manually, outside terraform. 
 >> Example:
-{
-    You create a VM with size D4s_V5 using terraform code.
-
-    Somone from the team, manually from Azure portal changed the VM size to D16s_v4.
-}
+{You create a VM with size D4s_V5 using terraform code.
+Somone from the team, manually from Azure portal changed the VM size to D16s_v4.}
 --> This makes the Drift. 
 
 >>> How to detect the Drift. 
