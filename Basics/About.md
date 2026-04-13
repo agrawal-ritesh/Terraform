@@ -13,7 +13,7 @@
 
 2. Resources. 
 > Blocks to create a resource using Terraform.
---> To create a resource group or virtual machine or networks.
+>> To create a resource group or virtual machine or networks.
 
 3. Variables. 
 > Inputs that allows the customization which changing the actual code.
