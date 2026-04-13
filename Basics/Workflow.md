@@ -50,3 +50,17 @@ To ensure the same plan is applies and no manual error.
 > Formatting. 
 >> Automatically formats the code.
 >>> Makes the code clean and readable.
+
+
+====================================
+
+#### When we run 'terraform init' two new files are generated. 
+
+- .terraform -> working directory. (downloads providers, modules)
+- .terraform.lock.hcl -> dependecy lock file.
+
+#### When we run 'terraform plan' another two new files are generated. 
+
+- terraform.tfstate -> this file stores actual state of your infrastructure.
+
+- .terraform.tfstate.lock.info -> this is a temporary lock file. (it prevents multiple users running terraform at the same time)
