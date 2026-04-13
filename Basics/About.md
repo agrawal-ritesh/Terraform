@@ -24,7 +24,7 @@
 4. Locals.
 > These are the variables, but used inside the code only. 
 
-[]
+[
 Difference: 
 Variables -> Input from Users. 
 Locals -> Internal calculation.
