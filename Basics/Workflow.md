@@ -31,14 +31,14 @@ Terraform WorkFlow.
 
 [Write code -> init -> plan -> apply -> (repeat changes) -> destroy]
 
-Basic commands.
-terraform [init , plan , apply , destroy]
+> Basic commands.
+>> terraform [init , plan , apply , destroy]
 
 To ensure the same plan is applies and no manual error. 
 
-terraform plan -out=plan.tfplan
+# terraform plan -out=plan.tfplan
 
-terraform apply plan.tfplan
+# terraform apply plan.tfplan
 
 
 

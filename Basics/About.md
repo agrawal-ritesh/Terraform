@@ -1,10 +1,12 @@
-      Terraform:
+                                                 Terraform:
 > Infrastructure as Code
-> Your Cloud Setup written in Code.
-> Same Setup can be reused anytime. 
-> No manual mistakes. 
+1. Your Cloud Setup written in Code.
+2. Same Setup can be reused anytime. 
+3. No manual mistakes. 
+
 
 =============================
+About:
 
 1. Providers. 
 > Plugins that allows terraform to talk to cloud services.
@@ -16,17 +18,17 @@
 3. Variables. 
 > Inputs that allows the customization which changing the actual code.
 >> ExampleL: Think of Pizza.
-   {Base is same, Cheese is same, Cooking method is same.} -> Actual Code.
-   {Size, Toppings, Spice level} -> Variables. 
+   >>>{Base is same, Cheese is same, Cooking method is same.} -> Actual Code.
+           {Size, Toppings, Spice level} -> Variables. 
 
 4. Locals.
 > These are the variables, but used inside the code only. 
 
-{
+[]
 Difference: 
 Variables -> Input from Users. 
 Locals -> Internal calculation.
-}
+]
 
 5. Output.
 > Its show the results of what is created. 
