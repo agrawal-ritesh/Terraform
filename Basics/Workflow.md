@@ -36,9 +36,9 @@ Terraform WorkFlow.
 
 To ensure the same plan is applies and no manual error. 
 
-# terraform plan -out=plan.tfplan
+### terraform plan -out=plan.tfplan
 
-# terraform apply plan.tfplan
+### terraform apply plan.tfplan
 
 
 
