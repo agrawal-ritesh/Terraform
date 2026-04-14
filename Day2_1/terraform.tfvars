@@ -1,9 +1,10 @@
 
 /*
-We give the password here so that we can change the password depending where are we using the code. (Dev / Test /Prod).
-This is just for the reference, we dont push the terraform.tfvars on Githun or any repository in production.admin_username = 
+We provide the password here so that it can be changed based on the environment where the code is used (Dev / Test / Prod).
 
-Using this was, we dont need to change the actual code, only changing the tfvars will help.
+This file is only for reference. We do not push terraform.tfvars to GitHub or any repository in production, as it may contain sensitive information.
+
+By using this approach, we do not need to modify the actual code. Simply updating the tfvars file is sufficient.
 */
 
 
