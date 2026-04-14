@@ -13,19 +13,20 @@ module "network" {
 
 module "subnet" {
     source = "./modules/subnet"
-    esource_group_name = var.resource_group_name
+    resource_group_name = var.resource_group_name
     location = var.location
+    vnet_name = module.network.vnet_name
 }
 
 module "nsg" {
     source = "./modules/nsg"
-    esource_group_name = var.resource_group_name
+    resource_group_name = var.resource_group_name
     location = var.location
 }
 
 module "nic" {
     source = "./modules/nic"
-    esource_group_name = var.resource_group_name
+    resource_group_name = var.resource_group_name
     location = var.location
     subnet_id = module.subnet.subnet_id
     nsg_id = module.nsg.nsg_id
@@ -33,7 +34,7 @@ module "nic" {
 
 module "vm" {
     source = "./modules/vm"
-    esource_group_name = var.resource_group_name
+    resource_group_name = var.resource_group_name
     location = var.location
     nic_id = module.nic.nic_id
     admin_username = var.admin_username
