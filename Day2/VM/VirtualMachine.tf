@@ -87,8 +87,8 @@ resource "azurerm_windows_virtual_machine" "vm" {
   resource_group_name = azurerm_resource_group.rg5.name
   size                = "Standard_D2as_v5"
 
-  admin_username = "azureuser"
-  admin_password = "Password1234!"   # ⚠️ Change this!
+  admin_username = "azureadmin"
+  admin_password = "Password1234!"   #Change this and keep as a strong password. 
 
   network_interface_ids = [
     azurerm_network_interface.nic.id
