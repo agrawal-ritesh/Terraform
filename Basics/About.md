@@ -81,7 +81,4 @@ That means terraform always try to make real infra match your code.
 11. terraform.lock.hcl
 > it is a lock file that records the exactr version of providers that terraform is using.
 
-#### When we run 'terraform init' two new files are generated. 
-
-- .terraform -> working directory. (downloads providers, modules)
-- .terraform.lock.hcl -> dependecy lock file.
+=================================================================================
