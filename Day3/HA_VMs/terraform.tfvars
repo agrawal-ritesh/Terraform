@@ -1,7 +1,7 @@
 
 # In production environment, dont push terraform.tfvars to any repository.
 
-admin_username = "azureuser"
+admin_username = "adminuser"
 
 admin_password = "Passw0rd"
 
