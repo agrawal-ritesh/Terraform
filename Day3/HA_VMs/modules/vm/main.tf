@@ -25,7 +25,7 @@ resource "azurerm_windows_virtual_machine" "vm" {
     network_interface_ids = [
         azurerm_network_interface.nic[count.index].id
     ]
-    zone = tostring((cound.index % 3) + 1)
+    zone = tostring((count.index % 3) + 1)
 
     os_disk {
         caching = "ReadWrite"

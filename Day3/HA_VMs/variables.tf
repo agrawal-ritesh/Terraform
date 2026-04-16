@@ -1,6 +1,6 @@
 
 variable "location" {
-    default = "East US"
+    default = "Central India"
 }
 
 variable "resource_group_name" {
@@ -12,7 +12,7 @@ variable "admin_username" {}
 variable "admin_password" {}
 
 variable "vm_size" {
-    default = "Standard_D2as_v5"
+    default = "Standard_D2s_v3"
 }
 
 variable "tags" {
