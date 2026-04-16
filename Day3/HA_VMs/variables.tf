@@ -18,3 +18,7 @@ variable "vm_size" {
 variable "tags" {
     type = map(stirng)  # This means the variable must be a map (key - value pair) where every value is s string.
 }
+
+variable "vm_count" {
+    default = 5
+}
