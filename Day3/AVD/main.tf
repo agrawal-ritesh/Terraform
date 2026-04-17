@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "rg" {
 
 module "avd" {
     source = "./modules/avd"
-    locaiton = var.location
+    location = var.location
     resource_group_name = azurerm_resource_group.rg.name
     vm_count = var.vm_count
     admin_username = var.admin_username

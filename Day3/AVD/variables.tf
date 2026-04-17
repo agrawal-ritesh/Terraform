@@ -4,7 +4,7 @@ variable "resource_group_name" {
 }
 
 variable "location" {
-    default = "US East"
+    default = "Australia East"
 }
 
 variable "vm_count" {
@@ -17,5 +17,5 @@ variable "tags" {
 
 variable "admin_username" {}
 
-variable "admin_passowrd" {}
+variable "admin_password" {}
 
