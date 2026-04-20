@@ -1,4 +1,4 @@
-variable "locaiton" {
+variable "location" {
     default = "East US"
 }
 
